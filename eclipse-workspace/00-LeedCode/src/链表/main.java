@@ -1,0 +1,34 @@
+package 链表;
+
+public class main {
+
+	public static void main(String[] args) {
+		ListNode node1 = new ListNode(6);
+		ListNode node2 = new ListNode(6);
+		ListNode node3 = new ListNode(3);
+		ListNode node4 = new ListNode(6);
+		ListNode node5 = new ListNode(4);
+		ListNode node6 = new ListNode(5);
+		ListNode node7 = new ListNode(6);
+		ListNode node8 = new ListNode(6);
+		ListNode node9 = new ListNode(6);
+		ListNode node10 = new ListNode(6);
+		
+		node1.next = node2;
+		node2.next = node3;
+		node3.next = node4;
+		node4.next = node5;
+		node5.next = node6;
+		node6.next = node7;
+		node7.next = node8;
+		node8.next = node9;
+		node9.next = node10;
+		node10.next = null;
+	
+		System.out.println("before:" + node1);
+		
+		ListNode newNode = _203_移除链表元素.removeElements(node1, 6);
+		
+		System.out.println("after:" + newNode);
+	}
+}
