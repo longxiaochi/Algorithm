@@ -8,8 +8,8 @@ package 链表;
  */
 public class _206_反转链表 {
 	class Solution {
-	    public ListNode reverseList(ListNode head) {
-	    	
-	    }
+//	    public ListNode reverseList(ListNode head) {
+//	    	
+//	    }
 	}
 }

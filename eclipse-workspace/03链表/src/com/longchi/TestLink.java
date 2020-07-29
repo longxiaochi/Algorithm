@@ -6,7 +6,7 @@ public class TestLink {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		LinkedList<Integer> list = new LinkedList<>();
+		DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
 		list.add(10);
 		list.add(30);
 		
@@ -19,7 +19,7 @@ public class TestLink {
 		list.remove(0);
 		System.out.println(list);
 		
-		list.add(100, 200);
+//		list.add(100, 200);
 		
 		System.out.println(list.indexOf(10));
 		

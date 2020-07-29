@@ -1,5 +1,0 @@
-
-public interface List {
-	// 元素未找到标识
-	private static final int ELEMENT_NOT_FOUND = -1;
-}
