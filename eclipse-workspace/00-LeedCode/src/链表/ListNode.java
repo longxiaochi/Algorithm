@@ -6,4 +6,18 @@ public class ListNode {
 	ListNode(int x) { 
 		val = x; 
 	}
+	
+	@Override
+	public String toString() {
+		StringBuilder buider = new StringBuilder();
+		buider.append("links: ");
+		ListNode node = this;
+		while (node != null) {
+			buider.append(node.val).append("_");
+			node = node.next;
+		}
+		buider.append("null");
+		
+		return buider.toString();
+	}
 }
